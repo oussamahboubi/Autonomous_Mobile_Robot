@@ -1,7 +1,7 @@
 # Autonomous Mobile Robots - WS18
 
 ## Please replace this with your name and GitHub username
-* Alexander Buechel @[abuech2s](http://github.com/noursoufi)
+* Nour Soufi @[noursoufi](http://github.com/noursoufi)
 
 ## 1. Course Description and Prerequisites
 
