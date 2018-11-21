@@ -7,6 +7,7 @@ from exceptions import NotImplementedError
 import math
 
 
+
 class VelocityController:
     """
     Base class for velocity controller for the sake of OOP

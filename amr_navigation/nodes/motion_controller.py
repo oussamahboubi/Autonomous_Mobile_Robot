@@ -3,6 +3,7 @@
 PACKAGE = 'amr_navigation'
 NODE = 'motion_controller'
 
+
 import rospy
 import tf
 import math
@@ -62,6 +63,15 @@ class MotionControllerNode:
             conform to what you have implemented in that class.
             
             """
+            self._velocity_controller = OmniVelocityController(max_linear_velocity,
+                                                               linear_tolerance,
+                                                               max_angular_velocity,
+                                                               angular_tolerance,
+                                                               max_linear_acceleration,
+                                                               max_angular_acceleration
+                                                               )
+            
+            
         elif controller_type == self.CONTROLLER_TYPE_UNSPECIFIED:
             rospy.logerr('Controller type not specified. '
                          'Check the [controller] launch parameter')
